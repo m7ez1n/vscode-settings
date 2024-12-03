@@ -1,8 +1,10 @@
 {
-  // window
+  // window and files
   "window.titleBarStyle": "custom",
   "window.commandCenter": false,
   "symbols.hidesExplorerArrows": false,
+  "files.autoSave": "onWindowChange",
+  "breadcrumbs.enabled": false,
 
   // git e gitlens
   "git.enableSmartCommit": true,
@@ -17,7 +19,6 @@
     "source.organizeImports": "explicit"
   },
   "eslint.validate": ["javascript", "typescriptreact", "javascriptreact"],
-
   "[javascript]": {
     "editor.autoClosingBrackets": "always",
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -37,8 +38,6 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "prisma.showPrismaDataPlatformNotification": false,
-  "files.autoSave": "onWindowChange",
 
   // font and editor
   "editor.fontFamily": "CodeNewRoman Nerd Font Mono",
@@ -59,7 +58,6 @@
   "editor.semanticHighlighting.enabled": false,
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
-  "breadcrumbs.enabled": false,
 
   // workbench
   "workbench.startupEditor": "none",
@@ -79,29 +77,5 @@
     "tailwind.config.*": "tailwind.config*, postcss.config*",
     ".env.local": ".env*",
     ".env": ".env*"
-  },
-
-  // apc
-  "apc.electron": {
-    "titleBarStyle": "hiddenInset",
-    "trafficLightPosition": {
-      "x": 11,
-      "y": 10
-    },
-    "frame": false
-  },
-  "apc.header": {
-    "height": 36
-  },
-  "apc.listRow": {
-    "height": 24
-  },
-  "apc.stylesheet": {
-    ".title-label > h2": "display: none",
-    ".title-actions": "display: none",
-    ".editor-actions": "display: none",
-    ".nosidebar .inline-tabs-placeholder": "width: 75px",
-    ".pane-body": "padding: 8px",
-    ".pane-header": "padding: 0 8px"
   }
 }
