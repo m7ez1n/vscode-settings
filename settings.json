@@ -1,10 +1,9 @@
 {
-  // window and files
+  // window
   "window.titleBarStyle": "custom",
   "window.commandCenter": false,
+  "window.density.editorTabHeight": "compact",
   "symbols.hidesExplorerArrows": false,
-  "files.autoSave": "onWindowChange",
-  "breadcrumbs.enabled": false,
 
   // git e gitlens
   "git.enableSmartCommit": true,
@@ -19,6 +18,7 @@
     "source.organizeImports": "explicit"
   },
   "eslint.validate": ["javascript", "typescriptreact", "javascriptreact"],
+
   "[javascript]": {
     "editor.autoClosingBrackets": "always",
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -38,6 +38,7 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "files.autoSave": "onWindowChange",
 
   // font and editor
   "editor.fontFamily": "CodeNewRoman Nerd Font Mono",
@@ -58,6 +59,11 @@
   "editor.semanticHighlighting.enabled": false,
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
+  "editor.minimap.autohide": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "editor.cursorBlinking": "smooth",
+  "breadcrumbs.enabled": false,
 
   // workbench
   "workbench.startupEditor": "none",
@@ -68,6 +74,9 @@
   "workbench.editor.labelFormat": "short",
   "workbench.statusBar.visible": false,
   "workbench.layoutControl.enabled": false,
+  "workbench.activityBar.location": "hidden",
+  "workbench.tree.indent": 10,
+  "workbench.reduceMotion": "off",
 
   // explorer
   "explorer.compactFolders": false,
